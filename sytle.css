@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+p{
+    font-size: 1rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    background-repeat: aquamarine;
+}
+.grid-item{
+    background-color: beige;
+}
+.navber{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(121, 172, 248);
+    column-gap: 5px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.nav-item{
+    background-color: bisque;
+}
+.nav-item-container{
+    display: flex;
+    column-gap: 5px;
+}
